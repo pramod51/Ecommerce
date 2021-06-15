@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.sweven">
+    package="ecom.ecommerce.myecommerce">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -12,29 +12,31 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:hardwareAccelerated="false"
         android:theme="@style/AppTheme">
-        <activity android:name=".ViewAllActivity"></activity>
-        <activity android:name=".MyAddressesActivity" />
+        <activity android:name="ecom.ecommerce.myecommerce.ViewAllActivity"></activity>
+        <activity android:name="ecom.ecommerce.myecommerce.MyAddressesActivity" />
         <activity
-            android:name=".AddAddressActivity"
+            android:name="ecom.ecommerce.myecommerce.AddAddressActivity"
             android:theme="@style/TealTheme" />
-        <activity android:name=".DeliveryActivity" />
-        <activity android:name=".OrderDetailsActivity" />
-        <activity android:name=".ProductDetailsActivity" />
-        <activity android:name=".CategoryActivity" />
+        <activity android:name="ecom.ecommerce.myecommerce.DeliveryActivity" />
+        <activity android:name="ecom.ecommerce.myecommerce.OrderDetailsActivity" />
+        <activity android:name="ecom.ecommerce.myecommerce.ProductDetailsActivity" />
+        <activity android:name="ecom.ecommerce.myecommerce.CategoryActivity" />
+        <activity android:name=".RozarPay"/>
         <activity
-            android:name=".MainActivity"
+            android:name="ecom.ecommerce.myecommerce.MainActivity"
             android:label="@string/title_activity_main"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".RegisterActivity"
+            android:name="ecom.ecommerce.myecommerce.RegisterActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".LoginActivity" />
+        <activity android:name="ecom.ecommerce.myecommerce.LoginActivity" />
         <activity
-            android:name=".SplashActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/SplashTheme">
+            android:name="ecom.ecommerce.myecommerce.SplashActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

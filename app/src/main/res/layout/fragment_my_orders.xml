@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MyOrdersFragment">
+    tools:context="ecom.ecommerce.myecommerce.MyOrdersFragment">
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/my_orders_recyclerview"
         android:background="@color/recyclerviewBackground"
         android:layout_width="match_parent"
